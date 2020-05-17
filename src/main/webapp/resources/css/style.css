@@ -1,0 +1,186 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+.content h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.content p {
+    padding: 5px;
+    text-align: center;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+
+}
+body{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.offers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.offers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.offers tr:nth-child(even){background-color: #f2f2f2;}
+
+.offers tr:hover {background-color: #ddd;}
+
+.offers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+.offersDiv h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.products{
+    text-align: center;
+}
+
+.product-preview-container {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 450px;
+    margin: 10px ;
+    display: inline-block;
+    text-align:left;
+}
+
+.product-preview-container input {
+    width: 50px;
+}
+
+
+.product-image {
+    width: 240px;
+    height: 160px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 5px;
+    margin:5px;
+}
+
+.navbar {
+    background: #444;
+    transition: all .6s;
+    backface-visibility: hidden;
+    box-shadow: 0 2px 5px 1px rgba(51, 51, 51, 0.5);
+    text-transform: uppercase;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 14px 16px;
+    color: #fff;
+    border: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #444;
+}
+
+.navbar-dark .navbar-toggler:focus {
+    background: none;
+    outline: 0;
+}
+
+.navbar-dark .navbar-toggler span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background: #fff;
+    transition: all .6s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+
+.navbar-dark .navbar-toggler:hover span,
+.navbar-dark .navbar-toggler:focus span {
+    background: #ccc;
+}
+
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:first-of-type {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:nth-of-type(2) {
+    opacity: 0;
+}
+
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:last-of-type {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.navbar-dark .navbar-toggler[aria-expanded="false"] span {
+    transform: none;
+    opacity: 1;
+}
+.navbar-nav{
+    float: right;
+}
+.nav-link{
+    float: right;
+}
+.nav-item{
+    float: right;
+}
